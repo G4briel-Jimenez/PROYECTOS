@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Link, Navigate } from 'react-router-dom';
 import { Container, Row, Col, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText, Card, CardBody, CardTitle, CardSubtitle, CardText } from 'reactstrap';
 import React, { useState } from 'react';
 import './Estilos.css';
@@ -333,6 +333,7 @@ function Principal() {
       <div className="MiContenido">
         <Barra />
         <Routes>
+        <Route path="/PROYECTOS/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/AcercaDanzas" element={<AcercaDanzas />} />
           <Route path="/Diablada" element={<Diablada />} />
