@@ -38,7 +38,7 @@ function Indices() {
               </DropdownMenu>
             </UncontrolledDropdown>
           </Nav>
-          <NavbarText>Realizado por Gabriel Jimenez</NavbarText>
+          <NavbarText>Realizado por</NavbarText>
         </Collapse>
       </Navbar>
     </div>
