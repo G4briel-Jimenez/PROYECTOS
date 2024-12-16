@@ -333,7 +333,7 @@ function Principal() {
       <div className="MiContenido">
         <Barra />
         <Routes>
-        <Route path="/PROYECTOS/" element={<Navigate to="/Home" />} />
+          <Route path="/PROYECTOS/" element={<Navigate to="/Home" />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/AcercaDanzas" element={<AcercaDanzas />} />
           <Route path="/Diablada" element={<Diablada />} />
